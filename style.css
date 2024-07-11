@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    display: block;
+    margin: 0;
+    background-color: #f6e3e3; 
+  
+}
+
+h1 {
+    color: #333;
+}
+
+#itemList {
+    
+    padding: 0;
+}
+
+#itemList li {
+    background: #f9f9f9;
+    margin: 5px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+#newItem {
+    margin-top: 10px;
+    padding: 5px;
+    width: 200px;
+}
+
+#addItemButton {
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.deleteItem {
+    cursor: pointer;
+    color: red;
+    margin-left: 5px;
+}
